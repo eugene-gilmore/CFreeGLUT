@@ -1,6 +1,5 @@
 module CFreeGLUT [system] {
-  header "/usr/include/stdint.h"
-  header "/usr/include/GL/freeglut.h"
+  header "CFREEGLUT_bridging_header.h"
   link "glut"
   export *
 }
